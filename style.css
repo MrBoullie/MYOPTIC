@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 200;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+}
+header a#logo{
+    font-size: 25px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #42accc;
+    margin-left: 20px;
+    cursor: default;
+}
+header nav{
+    font-size: 20px;
+    padding: 8px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+header nav .nav{
+    margin-left: 17px;
+    color: #42accc;
+    padding-left: 3px;
+}
+header nav .nav:hover{
+    color:#3c98b4 ;
+    font-size: 21px;
+}
+section{
+    padding: 100px 100px;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("img.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#main h2{
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+#main a.main-btn{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #42accc;
+    border-radius: 20px;
+    font-size: 1.1em;
+    font-weight: 300;
+    display: inline-block;
+    padding: 0.3em 0.7em;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+#main a.main-btn:hover{
+    background-color: #217e9b;
+    transform: scale(1.1);
+}
+.icons a{
+    color: black;
+    font-size: 1.4em;
+    padding-right: 30px;
+    padding-bottom: -30px;
+}
+section.stocks{
+    background-color: #42accc;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+section .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.stocks .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: #fff;
+    border: 2px solid #fff;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.05);
+}
+.proj-img img{
+    width: 100%;
+}
+.proj-img img:hover{
+    opacity: 0.9;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.9em;
+    color: #000;
+    font-weight: 500;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 7px;
+}
+.more-details{
+    text-decoration: none;
+    color:#42accc;
+}
+.more-details:hover{
+    color: #1c657c;
+}
+
+section .title-2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4em;
+}
+section .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .main-img{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.text-1{
+    margin: 80px 40px;
+}
+.text-1 h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin: 10px 20px;
+    text-decoration: underline;
+    font-weight: 550;
+}
+.text-1 p{
+    font-size: 1.1em;
+}
+section.contact{
+    background-color: #42accc;
+}
+
+.card{
+    background-color: #fff;
+    width: 20em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color:#000;
+    font-size: 7em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.contact .icon {
+    font-size:4.5em ;
+}
+
+.contact .info p{
+    font-size: 1.3em;
+}
+.footer{
+    padding:1.3em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.name{
+    color:#1a0b9c;
+}
